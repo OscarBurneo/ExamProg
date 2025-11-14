@@ -1,0 +1,29 @@
+Prompt Pregunta 2
+    @main
+
+      def main2(): Unit = {
+        val precios = List[Double](10, 20, 30, 40)
+        def funcion(precios: List[Double],regla:Double=> Double):List[Double]={
+          precios.map(regla)
+        }
+
+      }
+
+
+    En una tienda digital se trabaja con listas de precios que necesitan ser ajustadas antes de ser mostradas al usuario.
+    De acuerdo con el país, la temporada o las promociones vigentes, el ajuste puede consistir en agregar un impuesto, aplicar un descuento o modificar el precio según cierta estrategia comercial.
+    Se requiere elaborar una solución donde exista una única función capaz de recibir la lista de precios y, además, la función que representa la regla de ajuste que se quiera aplicar en ese momento. Esta función deberá retornar una nueva lista de precios ya modificados de acuerdo con la política específica que se haya suministrado.
+      Corrigue el codigo para que cumpla con lo solicitado
+
+
+
+Prompt Pregunta 3
+    @main
+      def main3(): Unit = {
+        val generadorIncrementadorAnonimo: Int => (Int => Int) =
+          (incremento: Int) =>(x: Int) => x + incremento
+
+        def generadorIncrementador(Incremento:Int ,x:Int):Int=x+Incremento
+      }
+
+    Necesito transformar la función anónima a una función con nombre, verifica si la tranformación esta bien hecha.
