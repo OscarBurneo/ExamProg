@@ -26,4 +26,4 @@ Prompt Pregunta 3
         def generadorIncrementador(Incremento:Int ,x:Int):Int=x+Incremento
       }
 
-    Necesito transformar la función anónima a una función con nombre, verifica si la tranformación esta bien hecha.
+    Necesito transformar la función anónima a una función con nombre, verifica si la tranformación esta bien hecha..
