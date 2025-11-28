@@ -24,7 +24,6 @@ val ciudades: List[Ciudad] = List(
 
 val correctCitys: List[Ciudad]=ciudades.filter(_.temps.size>=5)
 
-val ciudadMayorVariacion =
-  correctCitys.maxBy(c => c.temps.max - c.temps.min)
+val variacion = correctCitys.map(c => c.temps.max - c.temps.min)
 
-println(s"La ciudad con mayor variación es ${ciudadMayorVariacion.nombre} con una variación de ${ciudadMayorVariacion.temps.max - ciudadMayorVariacion.temps.min}°C.")
+necesito presentar la ciudad con mayor variacion de temperatura
